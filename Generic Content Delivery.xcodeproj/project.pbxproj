@@ -15,9 +15,8 @@
 		85321F581C1024A0009C9DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85321F561C1024A0009C9DFF /* LaunchScreen.storyboard */; };
 		85321F631C1024A1009C9DFF /* Generic_Content_DeliveryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85321F621C1024A1009C9DFF /* Generic_Content_DeliveryTests.m */; };
 		85321F6E1C102C2C009C9DFF /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 85321F6D1C102C2C009C9DFF /* test.txt */; settings = {ASSET_TAGS = (); }; };
-		859EFE631C1031670022A462 /* SlideOutMenu in Resources */ = {isa = PBXBuildFile; fileRef = 859EFE621C1031670022A462 /* SlideOutMenu */; settings = {ASSET_TAGS = (); }; };
-		859EFE661C1035D40022A462 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859EFE651C1035D40022A462 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
 		859EFE6C1C1038650022A462 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859EFE6B1C1038650022A462 /* NavigationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		859EFE711C1041350022A462 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859EFE701C1041350022A462 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +44,10 @@
 		85321F621C1024A1009C9DFF /* Generic_Content_DeliveryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Generic_Content_DeliveryTests.m; sourceTree = "<group>"; };
 		85321F641C1024A1009C9DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85321F6D1C102C2C009C9DFF /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
-		859EFE621C1031670022A462 /* SlideOutMenu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SlideOutMenu; sourceTree = "<group>"; };
-		859EFE641C1035D40022A462 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SlideOutMenu/SlideOutMenuFiles/SWRevealViewController.h; sourceTree = "<group>"; };
-		859EFE651C1035D40022A462 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SlideOutMenu/SlideOutMenuFiles/SWRevealViewController.m; sourceTree = "<group>"; };
 		859EFE6A1C1038650022A462 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
 		859EFE6B1C1038650022A462 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		859EFE6F1C1041350022A462 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		859EFE701C1041350022A462 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +89,8 @@
 		85321F471C1024A0009C9DFF /* Generic Content Delivery */ = {
 			isa = PBXGroup;
 			children = (
+				859EFE6F1C1041350022A462 /* SWRevealViewController.h */,
+				859EFE701C1041350022A462 /* SWRevealViewController.m */,
 				85321F4B1C1024A0009C9DFF /* AppDelegate.h */,
 				85321F4C1C1024A0009C9DFF /* AppDelegate.m */,
 				85321F4E1C1024A0009C9DFF /* ViewController.h */,
@@ -110,9 +110,6 @@
 		85321F481C1024A0009C9DFF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				859EFE641C1035D40022A462 /* SWRevealViewController.h */,
-				859EFE651C1035D40022A462 /* SWRevealViewController.m */,
-				859EFE621C1031670022A462 /* SlideOutMenu */,
 				85321F491C1024A0009C9DFF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -211,7 +208,6 @@
 				85321F551C1024A0009C9DFF /* Assets.xcassets in Resources */,
 				85321F6E1C102C2C009C9DFF /* test.txt in Resources */,
 				85321F531C1024A0009C9DFF /* Main.storyboard in Resources */,
-				859EFE631C1031670022A462 /* SlideOutMenu in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,9 +227,9 @@
 			files = (
 				85321F501C1024A0009C9DFF /* ViewController.m in Sources */,
 				85321F4D1C1024A0009C9DFF /* AppDelegate.m in Sources */,
+				859EFE711C1041350022A462 /* SWRevealViewController.m in Sources */,
 				859EFE6C1C1038650022A462 /* NavigationViewController.m in Sources */,
 				85321F4A1C1024A0009C9DFF /* main.m in Sources */,
-				859EFE661C1035D40022A462 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
