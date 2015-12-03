@@ -14,6 +14,7 @@
 		85321F551C1024A0009C9DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85321F541C1024A0009C9DFF /* Assets.xcassets */; };
 		85321F581C1024A0009C9DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85321F561C1024A0009C9DFF /* LaunchScreen.storyboard */; };
 		85321F631C1024A1009C9DFF /* Generic_Content_DeliveryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85321F621C1024A1009C9DFF /* Generic_Content_DeliveryTests.m */; };
+		85321F6E1C102C2C009C9DFF /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 85321F6D1C102C2C009C9DFF /* test.txt */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		85321F5E1C1024A1009C9DFF /* Generic Content DeliveryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Generic Content DeliveryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85321F621C1024A1009C9DFF /* Generic_Content_DeliveryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Generic_Content_DeliveryTests.m; sourceTree = "<group>"; };
 		85321F641C1024A1009C9DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85321F6D1C102C2C009C9DFF /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				85321F561C1024A0009C9DFF /* LaunchScreen.storyboard */,
 				85321F591C1024A1009C9DFF /* Info.plist */,
 				85321F481C1024A0009C9DFF /* Supporting Files */,
+				85321F6D1C102C2C009C9DFF /* test.txt */,
 			);
 			path = "Generic Content Delivery";
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			files = (
 				85321F581C1024A0009C9DFF /* LaunchScreen.storyboard in Resources */,
 				85321F551C1024A0009C9DFF /* Assets.xcassets in Resources */,
+				85321F6E1C102C2C009C9DFF /* test.txt in Resources */,
 				85321F531C1024A0009C9DFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +404,7 @@
 				85321F691C1024A1009C9DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85321F6A1C1024A1009C9DFF /* Build configuration list for PBXNativeTarget "Generic Content DeliveryTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +413,7 @@
 				85321F6C1C1024A1009C9DFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
